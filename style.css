@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+/* global css */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav related css */
+.header{
+    padding-top: 20px;
+}
+nav {
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+nav .nav-title{
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+nav span{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+}
+ul li .btn-primary{
+    border: none;
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    color: #fff;
+    font-family: 'Open Sans';
+    border-radius: 3px;
+}
+/* banner css */
+.banner {
+    display: flex;
+    align-items: center;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 0px 25px 0px 200px;
+}
+.banner .banner-greeting{
+    color: #474747;
+    font-family: 'Open Sans';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.banner .banner-title{
+    color: #181818;
+    font-family: 'Open Sans';
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner .banner-description{
+    color: #757575;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px 20px 0px;
+}
+.banner .btn-download{
+    border: none;
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    color: #fff;
+    font-family: 'Open Sans';
+    border-radius: 3px;
+}
+.banner .btn-contact{
+    border: 1px solid #FD6E0A;
+    background-color: #fff;
+    padding: 15px 30px;
+    color: #FD6E0A;
+    font-family: 'Open Sans';
+    border-radius: 3px;  
+}
+.banner .profile-pic{
+    width: 500px;
+}
